@@ -1,0 +1,11 @@
+question:Write a C++ program to print the sample output.
+
+
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+ cout<<"Hello World...!" ;
+ return 0;
+}
