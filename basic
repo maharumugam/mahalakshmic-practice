@@ -1,0 +1,16 @@
+basis:
+program:1
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b;
+    c=a+b;
+    cout<<"a:"<<a<<endl<<"b:"<<b<<endl<<"output :"<<c;
+    return 0;
+}
+Output:
+a:7
+b:9
+output :16
