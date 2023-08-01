@@ -1,0 +1,14 @@
+program:
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float si,amount,rate,time;
+    cin>>amount>>rate>>time;
+    si=(amount*rate*time)/100;
+    cout<<si;
+}
+output:-
+amount:4500
+rate:42
+time:2
