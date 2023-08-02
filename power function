@@ -1,0 +1,22 @@
+C Program To Read Integer (N) And Print First Three Powers (N^1,N^2,N^3)
+
+program:
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int num,a,b,c;
+    cin>>num;
+    a=pow(num,1);
+    b=pow(num,2);
+    c=pow(num,3);
+    cout<<a<<","<<b<<","<<c<<endl;
+    return 0;
+}
+
+input:
+5
+
+output:
+5,25,125
