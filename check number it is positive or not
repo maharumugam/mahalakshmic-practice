@@ -1,0 +1,27 @@
+program:
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int num;
+    cin>>num;
+    if(num>0)
+    {
+        cout<<"It is Positive";
+    }
+    else if(num<0)
+    {
+        cout<<"It is Negative";
+    }
+    else
+    {
+        cout<<"It is Zero";
+    }
+    return 0;
+}
+Input & Output:
+100
+It is Positive
+-99
+It is Negative
