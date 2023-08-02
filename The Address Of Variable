@@ -1,0 +1,16 @@
+Write A C++ Program To Find The Address Of Variable
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    int first,sec;
+    cin>>first>>sec;
+    cout<<&first<<","<<&sec;
+    return 0;
+}
+input:
+10
+15
+output:
+0x7fff75b6437c,0x7fff75b64378
