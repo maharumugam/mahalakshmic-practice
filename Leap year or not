@@ -1,0 +1,36 @@
+Problem :-
+Write A Program To Check Year Is Leap Year Or Not .Means Year Has 366 Days in Year .
+
+Logic :-;
+We Know that leap year have 366 Days in a year ,so if year is divide by 4 and 400 then year is leap year or one more condition if year divide by 100 then Year Is Not leap year or Leap Year Comes Every 4 Years Like 
+1992 ,1996 ,2000 ,2004 ,2008 ,2012 ,2016 ,2020 These are leap Years.
+
+program:-
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int year;
+    cout<<"Enter the year:";
+    cin>>year;
+    if((year%4)==0 && (year%400)==0)
+    {
+        cout<<"It is leap year";
+    }
+    else if(year%100==0)
+    {
+        cout<<"It is not leap year";
+    }
+    else
+    {
+        cout<<"It is leap year";
+    }
+    return 0;
+}
+
+Input:
+2004
+
+Output:
+Enter the year:2004
+It is leap year
