@@ -1,0 +1,38 @@
+C++ Program To Check Character Is Uppercase, Lowercase Alphabet Or A Digit Or A Special Symbol
+
+program:
+#include <iostream>
+using namespace std;
+int main()
+{
+    char n;
+    cin>>n;
+    if(n>=65 && n<90)
+    {
+        cout<<"Upper case letter";
+    }
+    else 
+    {
+        if(n>=97 && n<=144)
+        {
+            cout<<"Lower case letter";
+        }
+        else
+        {
+            if(n>=48 && n<=57)
+            {
+                cout<<"Digit";
+            }
+            else
+            {
+                cout<<"Special character";
+            }
+        }
+    }
+}
+
+Input:
+h
+
+output:
+lower Case
