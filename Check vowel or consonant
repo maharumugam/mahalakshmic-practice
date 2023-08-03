@@ -1,0 +1,25 @@
+Program to Check Vowel or Consonant Using if Else:
+#include <iostream>
+using namespace std;
+int main() 
+{
+    char n;
+    cout<<"Enter the character:";
+    cin>>n;
+    if(n=='a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U')
+    {
+        cout<<"vowel";
+    }
+    else
+    {
+        cout<<"consonant";
+    }
+    return 0;
+}
+
+input:
+o
+
+output:
+Enter the character:o
+vowel
