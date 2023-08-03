@@ -1,0 +1,34 @@
+Problem :-
+Write A Program To Convert A Lower Case To Upper Case Or Vice-Versa
+
+Logic :-
+Convert Lower to upper and upper to lower .we use ASCII value as we know that 'a' to 'z' ASCII is '97' to '122' And 'A' to 'Z' ASCII is '65' to '90' .
+so if want to convert lower to upper then minus 32 to character 
+and if you want to convert upper to lower then add 32 to character .
+
+program:
+#include <iostream>
+using namespace std;
+int main() 
+{
+    char ch;
+    cin>>ch;
+    if(ch>='a' && ch<='z')
+    {
+        ch=ch-32;
+        cout<<"The uppercase alphabet:"<<ch;
+    }
+    else
+    {
+        ch=ch+32;
+        cout<<"The lowercase alphabet:"<<ch;
+    }
+    cout<<endl;
+    return 0;
+}
+
+input :
+H
+
+output:
+The lowercase alphabet:h
