@@ -1,0 +1,31 @@
+C++ Program To Find Quotient And Reminder Of Two Numbers
+
+coding:
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int n,m,a,b;
+    cin>>n>>m;
+    a=n/m;
+    b=n%m;
+    if(n>m)
+    {
+        cout<<"Quotient:"<<a<<endl;
+        cout<<"Reminder:"<<b;
+    }
+    else
+    {
+        cout<<"--";
+    } 
+        return 0;
+}
+
+input:-
+n=30
+m=2
+
+output:-
+Quotient:15
+Reminder:0
+
