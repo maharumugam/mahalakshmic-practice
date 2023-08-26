@@ -1,0 +1,93 @@
+1)print the string:  
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str="mahaarumugam";
+    cout<<str;
+    return 0;
+}
+output:
+mahaarumugam
+
+2)print the total length of the string:
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str="mahaarumugam";
+    cout<<str.length();
+    return 0;
+}
+output:
+12
+
+3)to print the first elment in the string
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str="mahaarumugam";
+    str[0]='Z';
+    cout<<str;
+    return 0;
+}
+output:
+Zahaarumugam
+
+4)to find the particular character size in the string
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str="mahaarumugam";
+    cout<<str.find("ru",0);
+    return 0;
+}
+output:
+5
+
+5)to print substring in the string:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str="mahaarumugam";
+    cout<<str.substr(5,2);
+    return 0;
+}
+output:
+ru
+
+6)concatenate two strings
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str1="maha";
+    string str2="arumugam";
+    cout<<str1+str2;
+    return 0;
+}
+output:
+mahaarumugam
+
+7) to replaces a portion of a string with another string.
+program:
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str="Mahaarumugam";
+    str.replace(4,8,"lakshmi");
+    cout<<str;
+    return 0;
+}
+output:
+Mahalakshmi
+
