@@ -1,0 +1,99 @@
+to print the power
+program:
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    cout<<pow(3,3);//(a,b)=a^b
+}
+output:
+27
+
+to print the square root
+program:
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    cout<<sqrt(49);
+}
+output:
+7
+
+round off the given number using round(),ceil(),floor()
+1)program://round()
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    cout<<round(49.6)<<endl;
+    cout<<round(49.4)<<endl;
+}
+output:
+50
+49
+2)program://ceil()
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    cout<<ceil(49.6)<<endl;
+    cout<<ceil(49.4)<<endl;
+}
+output:
+50
+50
+3)program:
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    cout<<floor(49.6)<<endl;
+    cout<<floor(49.4)<<endl;
+}
+output:
+49
+49
+
+to print max between two number
+program:
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+   int a,b;
+   cout<<"a:";
+   cin>>a;
+   cout<<"b:";
+   cin>>b;
+   cout<<"max:"<<fmax(a,b);
+}
+output:
+a:87
+b:45
+max:87
+
+to print min between two number
+program:
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+   int a,b;
+   cout<<"a:";
+   cin>>a;
+   cout<<"b:";
+   cin>>b;
+   cout<<"min:"<<fmax(a,b);
+}
+output:
+a:87
+b:45
+min:45
