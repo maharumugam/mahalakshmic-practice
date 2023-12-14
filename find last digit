@@ -1,0 +1,16 @@
+program to find last digit of the given number:
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int number,lastdigit;
+    cout<<"Enter the number:";
+    cin>>n;
+    lasdigit=number%10;
+    cout<<"last digit of the given number is "<<lastdigit<<".";
+    return 0;
+}
+output:
+Enter the number:325347
+last digit of the given number is 7.
